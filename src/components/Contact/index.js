@@ -16,6 +16,13 @@ function Contact() {
         const { target } = e;
         const inputType = target.name;
         const inputValue = target.value;
-
-    }
+        // based on the input type, we set the state of either email, username, and message
+        if (inputType === "email") {
+            setEmail(inputValue);
+        } else if (inputType === "userName") {
+            setUserName(inputValue);
+        } else {
+            setMessage(inputValue);
+        }
+    };
 }

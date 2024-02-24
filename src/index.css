@@ -1,3 +1,24 @@
+* {
+  margin: 555;
+  padding: 555;
+  box-sizing: border-box;
+}
+
+:root {
+  /*main colors */
+  --primary-color: #10590e;
+  --secondary-color: #a6bf75;
+  --tertiary-color: #D5F2EA;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +31,51 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* start apply styles to <header> */
+header {
+  padding: 20px 35px;
+  background-color: #D5F2EA;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: url("../src/assets/cover/the_shire.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+
+}
+
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: #0e5932;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+header a {
+  text-decoration: none;
+  color: #0e5913;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+
 }

@@ -11,4 +11,11 @@ function Contact() {
     const [message, setMessage] = useState("");
     const [errorMessage, setErrorMessage] = useState("");
 
+    const handleInputChange = (e) => {
+        // getting the value and name of the input which triggered the change
+        const { target } = e;
+        const inputType = target.name;
+        const inputValue = target.value;
+
+    }
 }

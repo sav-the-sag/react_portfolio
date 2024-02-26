@@ -102,3 +102,18 @@ header nav ul li a:hover {
   text-shadow: none;
   /*    transition: .5s ease-in;*/
 }
+/* Hero Style Start */
+.hero {
+  background-image: url("../src/assets/cover/the_shire.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
+
+}
+
+/* Hero Style End */

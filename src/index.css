@@ -79,3 +79,26 @@ header nav ul {
   list-style: none;
 
 }
+/* button styling */
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: normal;
+  font-size: 1.60vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+
+}
+
+header nav ul li a:hover {
+  background: #0e5929;
+  color: #D5F2EA;
+  border-radius: 15px;
+  text-shadow: none;
+  /*    transition: .5s ease-in;*/
+}

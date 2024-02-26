@@ -1,5 +1,5 @@
 import React from "react";
-// import profileImage from "../../assets/large/";
+import profileImage from "../../assets/large/IMG_6634.jpg";
 function About() {
   return (
     <section id="about-me" className="my-5 intro">
@@ -11,7 +11,7 @@ function About() {
       <div className="flex-row">
         <div class="intro-info">
           <div class="intro-img">
-        {/* <img src={profileImage} style={{ width: "100%" }} alt="large" /> */}
+        <img src={profileImage} style={{ width: "100%" }} alt="large" />
           </div>
           <p>
             Hi there! I'm Savannah Williams, a 26-year-old from the Bay Area. I have a BA in Theology and Religious Studies from Saint Mary's College of California. Although most of my academic background revolves around Theology, I have decided to pursue coding!

@@ -5,6 +5,7 @@ import movieProjectImage from "../../assets/small/Movie_Project1.png";
 import noteTakerImage from "../../assets/small/Note_Taker.png";
 import weatherDashImage from "../../assets/small/Weather_Dashboard.png";
 import workdaySchedulerImage from "../../assets/small/Workday_Scheduler.png";
+import crystalClarityImage from "../../assets/small/Crystal_Clarity.png";
 
 function Portfolio() {
   return (
@@ -14,6 +15,27 @@ function Portfolio() {
           <h2 className="section-title secondary-border">Work</h2>
         </div>
 
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a href="https://crystal-clarity.onrender.com/">
+                {" "}
+                <img
+                  src={crystalClarityImage}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Crystal_Clarity"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              <h4>Crystal Clarity</h4>
+              <p>
+              Crystal Clarity is the premier destination for cultivating positivity and self-improvement! This app offers the mystical insights of a Magic Crystal Ball. Users can create personalized profiles to curate their favorite affirmations and enjoy the transformative power of positive thinking. With intuitive features for updating profiles and managing collections, Crystal Clarity empowers individuals to embark on a journey of self-discovery and enlightenment!
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="job">
           <div className="job-info">
             <div className="job-img">
